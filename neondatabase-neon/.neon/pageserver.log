@@ -1,0 +1,82 @@
+2023-03-07T19:45:11.773582Z  INFO version: git-env:local failpoints: true, features: [] launch_timestamp: 2023-03-07 19:45:11.768285820 UTC
+2023-03-07T19:45:11.775985Z  INFO Claimed pid file at "/opt/neondatabase-neon/.neon/pageserver.pid"
+2023-03-07T19:45:11.776010Z  INFO Starting pageserver http handler on 127.0.0.1:9898
+2023-03-07T19:45:11.776082Z  INFO Starting pageserver pg protocol handler on 127.0.0.1:64000
+2023-03-07T19:45:11.777550Z  INFO Initialized broker client with endpoints: http://127.0.0.1:50051/
+2023-03-07T19:45:11.777702Z  INFO Using auth: Trust
+2023-03-07T19:45:11.777735Z  INFO No JWT token for authentication with Safekeeper detected
+2023-03-07T19:45:11.779125Z  INFO init_tenant_mgr: Processed 0 local tenants at startup
+2023-03-07T19:45:11.868089Z  INFO GET /v1/status 200 OK
+2023-03-07T19:45:12.040971Z  INFO tenant_create{tenant=a9f752f1ec70dc10c806beb4677adf42}:saving tenantconf: persisting tenantconf to /opt/neondatabase-neon/.neon/tenants/a9f752f1ec70dc10c806beb4677adf42.___temp/config
+2023-03-07T19:45:12.043326Z  INFO tenant_create{tenant=a9f752f1ec70dc10c806beb4677adf42}: tenant a9f752f1ec70dc10c806beb4677adf42 is assumed to be loadable, starting load operation
+2023-03-07T19:45:12.043350Z  INFO tenant_create{tenant=a9f752f1ec70dc10c806beb4677adf42}:spawn_load{tenant_id=a9f752f1ec70dc10c806beb4677adf42}: loading tenantconf from /opt/neondatabase-neon/.neon/tenants/a9f752f1ec70dc10c806beb4677adf42/config
+2023-03-07T19:45:12.043452Z  INFO tenant_create{tenant=a9f752f1ec70dc10c806beb4677adf42}:spawn_load{tenant_id=a9f752f1ec70dc10c806beb4677adf42}: spawned load into background
+2023-03-07T19:45:12.043492Z  INFO load{tenant_id=a9f752f1ec70dc10c806beb4677adf42}: loading tenant task
+2023-03-07T19:45:12.043528Z  INFO load{tenant_id=a9f752f1ec70dc10c806beb4677adf42}: Activating tenant a9f752f1ec70dc10c806beb4677adf42
+2023-03-07T19:45:12.043651Z  INFO load{tenant_id=a9f752f1ec70dc10c806beb4677adf42}: Done
+2023-03-07T19:45:12.043684Z  INFO initial load for tenant a9f752f1ec70dc10c806beb4677adf42 finished!
+2023-03-07T19:45:12.043721Z  INFO POST /v1/tenant 201 Created
+2023-03-07T19:45:12.043982Z  INFO compaction_loop{tenant_id=a9f752f1ec70dc10c806beb4677adf42}: starting
+2023-03-07T19:45:12.044022Z  INFO gc_loop{tenant_id=a9f752f1ec70dc10c806beb4677adf42}: starting
+2023-03-07T19:45:12.046333Z  INFO timeline_create{tenant=a9f752f1ec70dc10c806beb4677adf42 new_timeline=None timeline_id=cb8d17d9b27d204f00acc3bfb40854da lsn=None pg_version=Some(14)}: running /opt/neondatabase-neon/pg_install/v14/bin/initdb in /opt/neondatabase-neon/.neon/tenants/a9f752f1ec70dc10c806beb4677adf42/timelines/basebackup-cb8d17d9b27d204f00acc3bfb40854da.___temp, libdir: /opt/neondatabase-neon/pg_install/v14/lib
+2023-03-07T19:45:13.444217Z  INFO timeline_create{tenant=a9f752f1ec70dc10c806beb4677adf42 new_timeline=None timeline_id=cb8d17d9b27d204f00acc3bfb40854da lsn=None pg_version=Some(14)}: importing slru file "pg_multixact/members/0000"
+2023-03-07T19:45:13.444675Z  INFO timeline_create{tenant=a9f752f1ec70dc10c806beb4677adf42 new_timeline=None timeline_id=cb8d17d9b27d204f00acc3bfb40854da lsn=None pg_version=Some(14)}: importing slru file "pg_multixact/offsets/0000"
+2023-03-07T19:45:13.445762Z  INFO timeline_create{tenant=a9f752f1ec70dc10c806beb4677adf42 new_timeline=None timeline_id=cb8d17d9b27d204f00acc3bfb40854da lsn=None pg_version=Some(14)}: importing slru file "pg_xact/0000"
+2023-03-07T19:45:13.512806Z  INFO timeline_create{tenant=a9f752f1ec70dc10c806beb4677adf42 new_timeline=None timeline_id=cb8d17d9b27d204f00acc3bfb40854da lsn=None pg_version=Some(14)}: reached end of WAL at 0/16960E8
+2023-03-07T19:45:13.514047Z  INFO timeline_create{tenant=a9f752f1ec70dc10c806beb4677adf42 new_timeline=None timeline_id=cb8d17d9b27d204f00acc3bfb40854da lsn=None pg_version=Some(14)}: spawning flush loop
+2023-03-07T19:45:13.514560Z  INFO layer flush task{tenant=a9f752f1ec70dc10c806beb4677adf42 timeline=cb8d17d9b27d204f00acc3bfb40854da}: started flush loop
+2023-03-07T19:45:13.580992Z  INFO layer flush task{tenant=a9f752f1ec70dc10c806beb4677adf42 timeline=cb8d17d9b27d204f00acc3bfb40854da}:flush_frozen_layer{tenant_id=a9f752f1ec70dc10c806beb4677adf42 timeline_id=cb8d17d9b27d204f00acc3bfb40854da layer=inmem-0000000001696070-00000000016960E9}: Rebuilt layer map. Did 1 insertions to process a batch of 1 updates.
+2023-03-07T19:45:13.586075Z  INFO timeline_create{tenant=a9f752f1ec70dc10c806beb4677adf42 new_timeline=None timeline_id=cb8d17d9b27d204f00acc3bfb40854da lsn=None pg_version=Some(14)}: skipping attempt to start flush_loop twice a9f752f1ec70dc10c806beb4677adf42/cb8d17d9b27d204f00acc3bfb40854da
+2023-03-07T19:45:13.586135Z  INFO timeline_create{tenant=a9f752f1ec70dc10c806beb4677adf42 new_timeline=None timeline_id=cb8d17d9b27d204f00acc3bfb40854da lsn=None pg_version=Some(14)}: launching WAL receiver for timeline cb8d17d9b27d204f00acc3bfb40854da of tenant a9f752f1ec70dc10c806beb4677adf42
+2023-03-07T19:45:13.586588Z  INFO timeline_create{tenant=a9f752f1ec70dc10c806beb4677adf42 new_timeline=None timeline_id=cb8d17d9b27d204f00acc3bfb40854da lsn=None pg_version=Some(14)}: created root timeline cb8d17d9b27d204f00acc3bfb40854da timeline.lsn 0/16960E8
+2023-03-07T19:45:13.586892Z  INFO wal_connection_manager{tenant=a9f752f1ec70dc10c806beb4677adf42 timeline=cb8d17d9b27d204f00acc3bfb40854da}: WAL receiver manager started, connecting to broker
+2023-03-07T19:45:13.587862Z  INFO wal_connection_manager{tenant=a9f752f1ec70dc10c806beb4677adf42 timeline=cb8d17d9b27d204f00acc3bfb40854da}: Subscribed for broker timeline updates
+2023-03-07T19:45:13.612587Z  INFO POST /v1/tenant/a9f752f1ec70dc10c806beb4677adf42/timeline 201 Created
+2023-03-07T19:45:13.663897Z  INFO handle_basebackup_request{tenant_id=a9f752f1ec70dc10c806beb4677adf42 timeline_id=cb8d17d9b27d204f00acc3bfb40854da lsn=None prev_lsn=None full_backup=false}: taking basebackup lsn=0/16960E8, prev_lsn=0/1696070 (full_backup=false)
+2023-03-07T19:45:13.664769Z  INFO handle_basebackup_request{tenant_id=a9f752f1ec70dc10c806beb4677adf42 timeline_id=cb8d17d9b27d204f00acc3bfb40854da lsn=None prev_lsn=None full_backup=false}:send_tarball{backup_lsn=0/16960E8}: timeline.pg_version 14
+2023-03-07T19:45:13.693653Z  INFO handle_basebackup_request{tenant_id=a9f752f1ec70dc10c806beb4677adf42 timeline_id=cb8d17d9b27d204f00acc3bfb40854da lsn=None prev_lsn=None full_backup=false}: basebackup complete
+2023-03-07T19:45:13.895100Z  INFO wal_connection_manager{tenant=a9f752f1ec70dc10c806beb4677adf42 timeline=cb8d17d9b27d204f00acc3bfb40854da}: New SK node was added: 1
+2023-03-07T19:45:13.895158Z  INFO wal_connection_manager{tenant=a9f752f1ec70dc10c806beb4677adf42 timeline=cb8d17d9b27d204f00acc3bfb40854da}: Switching to new connection candidate: NewWalConnectionCandidate { safekeeper_id: NodeId(1), wal_source_connconf: PgConnectionConfig { host: Ipv4(127.0.0.1), port: 5454, password: None }, reason: NoExistingConnection }
+2023-03-07T19:45:13.895234Z  INFO walreceiver_connection{id=a9f752f1ec70dc10c806beb4677adf42/cb8d17d9b27d204f00acc3bfb40854da node_id=1}: connecting to PgConnectionConfig { host: Ipv4(127.0.0.1), port: 5454, password: None }
+2023-03-07T19:45:13.895986Z  INFO walreceiver_connection{id=a9f752f1ec70dc10c806beb4677adf42/cb8d17d9b27d204f00acc3bfb40854da node_id=1}: connected!
+2023-03-07T19:45:13.896347Z  INFO walreceiver_connection{id=a9f752f1ec70dc10c806beb4677adf42/cb8d17d9b27d204f00acc3bfb40854da node_id=1}: IdentifySystem { systemid: 7207892766371999879, timeline: 1, xlogpos: 0/16960E8, dbname: None }
+2023-03-07T19:45:13.896366Z  INFO walreceiver_connection{id=a9f752f1ec70dc10c806beb4677adf42/cb8d17d9b27d204f00acc3bfb40854da node_id=1}: last_record_lsn 0/16960E8 starting replication from 0/16960E8, safekeeper is at 0/16960E8...
+2023-08-18T06:08:37.269262Z  INFO version: git-env:local failpoints: true, features: [] launch_timestamp: 2023-08-18 06:08:37.212261553 UTC
+2023-08-18T06:08:37.281877Z  INFO Claimed pid file at "/opt/neondatabase-neon/.neon/pageserver.pid"
+2023-08-18T06:08:37.282218Z  INFO Starting pageserver http handler on 127.0.0.1:9898
+2023-08-18T06:08:37.282935Z  INFO Starting pageserver pg protocol handler on 127.0.0.1:64000
+2023-08-18T06:08:37.337387Z  INFO Initialized broker client with endpoints: http://127.0.0.1:50051/
+2023-08-18T06:08:37.339035Z  INFO Using auth: Trust
+2023-08-18T06:08:37.339285Z  INFO No JWT token for authentication with Safekeeper detected
+2023-08-18T06:08:37.364757Z  INFO init_tenant_mgr: tenant a9f752f1ec70dc10c806beb4677adf42 is assumed to be loadable, starting load operation
+2023-08-18T06:08:37.365718Z  INFO init_tenant_mgr:spawn_load{tenant_id=a9f752f1ec70dc10c806beb4677adf42}: loading tenantconf from /opt/neondatabase-neon/.neon/tenants/a9f752f1ec70dc10c806beb4677adf42/config
+2023-08-18T06:08:37.372271Z  INFO init_tenant_mgr:spawn_load{tenant_id=a9f752f1ec70dc10c806beb4677adf42}: spawned load into background
+2023-08-18T06:08:37.374596Z  INFO load{tenant_id=a9f752f1ec70dc10c806beb4677adf42}: loading tenant task
+2023-08-18T06:08:37.378824Z  INFO init_tenant_mgr: Processed 1 local tenants at startup
+2023-08-18T06:08:37.444932Z  INFO load{tenant_id=a9f752f1ec70dc10c806beb4677adf42}:load_local_timeline{timeline_id=cb8d17d9b27d204f00acc3bfb40854da}: Rebuilt layer map. Did 1 insertions to process a batch of 1 updates.
+2023-08-18T06:08:37.445439Z  INFO load{tenant_id=a9f752f1ec70dc10c806beb4677adf42}:load_local_timeline{timeline_id=cb8d17d9b27d204f00acc3bfb40854da}: loaded layer map with 1 layers at 0/16960E8, total physical size: 25575424
+2023-08-18T06:08:37.446611Z  INFO load{tenant_id=a9f752f1ec70dc10c806beb4677adf42}:load_local_timeline{timeline_id=cb8d17d9b27d204f00acc3bfb40854da}: spawning flush loop
+2023-08-18T06:08:37.449072Z  INFO load{tenant_id=a9f752f1ec70dc10c806beb4677adf42}: Activating tenant a9f752f1ec70dc10c806beb4677adf42
+2023-08-18T06:08:37.452282Z  INFO layer flush task{tenant=a9f752f1ec70dc10c806beb4677adf42 timeline=cb8d17d9b27d204f00acc3bfb40854da}: started flush loop
+2023-08-18T06:08:37.454771Z  INFO load{tenant_id=a9f752f1ec70dc10c806beb4677adf42}: launching WAL receiver for timeline cb8d17d9b27d204f00acc3bfb40854da of tenant a9f752f1ec70dc10c806beb4677adf42
+2023-08-18T06:08:37.455244Z  INFO compaction_loop{tenant_id=a9f752f1ec70dc10c806beb4677adf42}: starting
+2023-08-18T06:08:37.459970Z  INFO wal_connection_manager{tenant=a9f752f1ec70dc10c806beb4677adf42 timeline=cb8d17d9b27d204f00acc3bfb40854da}: WAL receiver manager started, connecting to broker
+2023-08-18T06:08:37.462220Z  INFO gc_loop{tenant_id=a9f752f1ec70dc10c806beb4677adf42}: starting
+2023-08-18T06:08:37.464462Z  INFO load{tenant_id=a9f752f1ec70dc10c806beb4677adf42}: Done
+2023-08-18T06:08:37.471305Z  INFO initial load for tenant a9f752f1ec70dc10c806beb4677adf42 finished!
+2023-08-18T06:08:37.617214Z  INFO GET /v1/status 200 OK
+2023-08-18T06:08:37.625639Z  INFO wal_connection_manager{tenant=a9f752f1ec70dc10c806beb4677adf42 timeline=cb8d17d9b27d204f00acc3bfb40854da}: Subscribed for broker timeline updates
+2023-08-18T06:08:38.150139Z  INFO handle_basebackup_request{tenant_id=a9f752f1ec70dc10c806beb4677adf42 timeline_id=cb8d17d9b27d204f00acc3bfb40854da lsn=Some(0/16960E8) prev_lsn=None full_backup=false}: waiting for 0/16960E8
+2023-08-18T06:08:38.150760Z  INFO handle_basebackup_request{tenant_id=a9f752f1ec70dc10c806beb4677adf42 timeline_id=cb8d17d9b27d204f00acc3bfb40854da lsn=Some(0/16960E8) prev_lsn=None full_backup=false}: taking basebackup lsn=0/16960E8, prev_lsn=0/1696070 (full_backup=false)
+2023-08-18T06:08:38.155618Z  INFO handle_basebackup_request{tenant_id=a9f752f1ec70dc10c806beb4677adf42 timeline_id=cb8d17d9b27d204f00acc3bfb40854da lsn=Some(0/16960E8) prev_lsn=None full_backup=false}:send_tarball{backup_lsn=0/16960E8}: timeline.pg_version 14
+2023-08-18T06:08:38.254214Z  INFO handle_basebackup_request{tenant_id=a9f752f1ec70dc10c806beb4677adf42 timeline_id=cb8d17d9b27d204f00acc3bfb40854da lsn=Some(0/16960E8) prev_lsn=None full_backup=false}: basebackup complete
+2023-08-18T06:08:38.894166Z  INFO wal_connection_manager{tenant=a9f752f1ec70dc10c806beb4677adf42 timeline=cb8d17d9b27d204f00acc3bfb40854da}: New SK node was added: 1
+2023-08-18T06:08:38.897910Z  INFO wal_connection_manager{tenant=a9f752f1ec70dc10c806beb4677adf42 timeline=cb8d17d9b27d204f00acc3bfb40854da}: Switching to new connection candidate: NewWalConnectionCandidate { safekeeper_id: NodeId(1), wal_source_connconf: PgConnectionConfig { host: Ipv4(127.0.0.1), port: 5454, password: None }, reason: NoExistingConnection }
+2023-08-18T06:08:38.899846Z  INFO walreceiver_connection{id=a9f752f1ec70dc10c806beb4677adf42/cb8d17d9b27d204f00acc3bfb40854da node_id=1}: connecting to PgConnectionConfig { host: Ipv4(127.0.0.1), port: 5454, password: None }
+2023-08-18T06:08:38.906289Z  INFO walreceiver_connection{id=a9f752f1ec70dc10c806beb4677adf42/cb8d17d9b27d204f00acc3bfb40854da node_id=1}: connected!
+2023-08-18T06:08:38.911575Z  INFO walreceiver_connection{id=a9f752f1ec70dc10c806beb4677adf42/cb8d17d9b27d204f00acc3bfb40854da node_id=1}: IdentifySystem { systemid: 7207892766371999879, timeline: 1, xlogpos: 0/16960E8, dbname: None }
+2023-08-18T06:08:38.911978Z  INFO walreceiver_connection{id=a9f752f1ec70dc10c806beb4677adf42/cb8d17d9b27d204f00acc3bfb40854da node_id=1}: last_record_lsn 0/16960E8 starting replication from 0/16960E8, safekeeper is at 0/16960E8...
+2023-08-18T06:08:39.927614Z  INFO walreceiver_connection{id=a9f752f1ec70dc10c806beb4677adf42/cb8d17d9b27d204f00acc3bfb40854da node_id=1}: Current size for timeline cb8d17d9b27d204f00acc3bfb40854da is approximate 0, initial_part_end lsn: 0/16960E8
+2023-08-18T06:08:39.928281Z  INFO walreceiver_connection{id=a9f752f1ec70dc10c806beb4677adf42/cb8d17d9b27d204f00acc3bfb40854da node_id=1}: spawning logical size computation from context of task kind WalReceiverConnectionHandler
+2023-08-18T06:08:39.935014Z  INFO Calculating logical size for timeline cb8d17d9b27d204f00acc3bfb40854da at 0/16960E8
+2023-08-18T06:08:53.714730Z  INFO walreceiver_connection{id=a9f752f1ec70dc10c806beb4677adf42/cb8d17d9b27d204f00acc3bfb40854da node_id=1}: caught up at LSN 0/1696120

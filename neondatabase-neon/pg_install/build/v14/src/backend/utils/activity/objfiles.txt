@@ -1,0 +1,1 @@
+src/backend/utils/activity/backend_progress.o src/backend/utils/activity/backend_status.o src/backend/utils/activity/wait_event.o

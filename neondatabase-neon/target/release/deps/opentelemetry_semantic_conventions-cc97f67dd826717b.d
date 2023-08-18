@@ -1,0 +1,9 @@
+/home/cloud-user/rpmbuild/BUILD/neondatabase-neon-pg14-1.0.0/target/release/deps/opentelemetry_semantic_conventions-cc97f67dd826717b.rmeta: /home/cloud-user/.cargo/registry/src/github.com-1ecc6299db9ec823/opentelemetry-semantic-conventions-0.10.0/src/lib.rs /home/cloud-user/.cargo/registry/src/github.com-1ecc6299db9ec823/opentelemetry-semantic-conventions-0.10.0/src/resource.rs /home/cloud-user/.cargo/registry/src/github.com-1ecc6299db9ec823/opentelemetry-semantic-conventions-0.10.0/src/trace.rs
+
+/home/cloud-user/rpmbuild/BUILD/neondatabase-neon-pg14-1.0.0/target/release/deps/libopentelemetry_semantic_conventions-cc97f67dd826717b.rlib: /home/cloud-user/.cargo/registry/src/github.com-1ecc6299db9ec823/opentelemetry-semantic-conventions-0.10.0/src/lib.rs /home/cloud-user/.cargo/registry/src/github.com-1ecc6299db9ec823/opentelemetry-semantic-conventions-0.10.0/src/resource.rs /home/cloud-user/.cargo/registry/src/github.com-1ecc6299db9ec823/opentelemetry-semantic-conventions-0.10.0/src/trace.rs
+
+/home/cloud-user/rpmbuild/BUILD/neondatabase-neon-pg14-1.0.0/target/release/deps/opentelemetry_semantic_conventions-cc97f67dd826717b.d: /home/cloud-user/.cargo/registry/src/github.com-1ecc6299db9ec823/opentelemetry-semantic-conventions-0.10.0/src/lib.rs /home/cloud-user/.cargo/registry/src/github.com-1ecc6299db9ec823/opentelemetry-semantic-conventions-0.10.0/src/resource.rs /home/cloud-user/.cargo/registry/src/github.com-1ecc6299db9ec823/opentelemetry-semantic-conventions-0.10.0/src/trace.rs
+
+/home/cloud-user/.cargo/registry/src/github.com-1ecc6299db9ec823/opentelemetry-semantic-conventions-0.10.0/src/lib.rs:
+/home/cloud-user/.cargo/registry/src/github.com-1ecc6299db9ec823/opentelemetry-semantic-conventions-0.10.0/src/resource.rs:
+/home/cloud-user/.cargo/registry/src/github.com-1ecc6299db9ec823/opentelemetry-semantic-conventions-0.10.0/src/trace.rs:

@@ -1,0 +1,10 @@
+2023-03-07T19:45:11.662714Z  INFO version: git-env:local
+2023-03-07T19:45:11.664536Z  INFO listening on 127.0.0.1:50051
+2023-03-07T19:45:11.892531Z  INFO subscription started id=0, key=All, addr=127.0.0.1:52268
+2023-03-07T19:45:11.892788Z  INFO publication started id=0 addr=127.0.0.1:52266
+2023-03-07T19:45:13.587691Z  INFO subscription started id=1, key=Timeline(TenantTimelineId { tenant_id: a9f752f1ec70dc10c806beb4677adf42, timeline_id: cb8d17d9b27d204f00acc3bfb40854da }), addr=127.0.0.1:52270
+2023-08-18T06:08:37.060764Z  INFO version: git-env:local
+2023-08-18T06:08:37.085118Z  INFO listening on 127.0.0.1:50051
+2023-08-18T06:08:37.612490Z  INFO subscription started id=0, key=Timeline(TenantTimelineId { tenant_id: a9f752f1ec70dc10c806beb4677adf42, timeline_id: cb8d17d9b27d204f00acc3bfb40854da }), addr=127.0.0.1:52542
+2023-08-18T06:08:37.885218Z  INFO subscription started id=1, key=All, addr=127.0.0.1:52568
+2023-08-18T06:08:37.886421Z  INFO publication started id=0 addr=127.0.0.1:52558

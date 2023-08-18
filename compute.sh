@@ -2,7 +2,7 @@
   set -ex
 
   SPEC_FILE_ORG=spec.prep.DOCKER.json
-  SPEC_FILE=/tmp/spec.json
+  SPEC_FILE=spec.json
   PG_VERSION=14
 
   echo "Waiting pageserver become ready."

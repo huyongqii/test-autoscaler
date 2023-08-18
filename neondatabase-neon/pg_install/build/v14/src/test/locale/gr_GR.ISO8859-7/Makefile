@@ -1,0 +1,1 @@
+/home/cloud-user/rpmbuild/BUILD/neondatabase-neon-pg14-1.0.0/vendor/postgres-v14/src/test/locale/gr_GR.ISO8859-7/Makefile

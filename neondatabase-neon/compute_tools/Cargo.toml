@@ -1,0 +1,28 @@
+[package]
+name = "compute_tools"
+version = "0.1.0"
+edition.workspace = true
+license.workspace = true
+
+[dependencies]
+anyhow.workspace = true
+chrono.workspace = true
+clap.workspace = true
+futures.workspace = true
+hyper = { workspace = true, features = ["full"] }
+notify.workspace = true
+opentelemetry.workspace = true
+postgres.workspace = true
+regex.workspace = true
+serde.workspace = true
+serde_json.workspace = true
+tar.workspace = true
+tokio = { workspace = true, features = ["rt", "rt-multi-thread"] }
+tokio-postgres.workspace = true
+tracing.workspace = true
+tracing-opentelemetry.workspace = true
+tracing-subscriber.workspace = true
+tracing-utils.workspace = true
+url.workspace = true
+
+workspace_hack.workspace = true

@@ -1,0 +1,11 @@
+/home/cloud-user/rpmbuild/BUILD/neondatabase-neon-pg14-1.0.0/target/release/deps/xmlparser-08bc313ac38ae864.rmeta: /home/cloud-user/.cargo/registry/src/github.com-1ecc6299db9ec823/xmlparser-0.13.5/src/lib.rs /home/cloud-user/.cargo/registry/src/github.com-1ecc6299db9ec823/xmlparser-0.13.5/src/error.rs /home/cloud-user/.cargo/registry/src/github.com-1ecc6299db9ec823/xmlparser-0.13.5/src/stream.rs /home/cloud-user/.cargo/registry/src/github.com-1ecc6299db9ec823/xmlparser-0.13.5/src/strspan.rs /home/cloud-user/.cargo/registry/src/github.com-1ecc6299db9ec823/xmlparser-0.13.5/src/xmlchar.rs
+
+/home/cloud-user/rpmbuild/BUILD/neondatabase-neon-pg14-1.0.0/target/release/deps/libxmlparser-08bc313ac38ae864.rlib: /home/cloud-user/.cargo/registry/src/github.com-1ecc6299db9ec823/xmlparser-0.13.5/src/lib.rs /home/cloud-user/.cargo/registry/src/github.com-1ecc6299db9ec823/xmlparser-0.13.5/src/error.rs /home/cloud-user/.cargo/registry/src/github.com-1ecc6299db9ec823/xmlparser-0.13.5/src/stream.rs /home/cloud-user/.cargo/registry/src/github.com-1ecc6299db9ec823/xmlparser-0.13.5/src/strspan.rs /home/cloud-user/.cargo/registry/src/github.com-1ecc6299db9ec823/xmlparser-0.13.5/src/xmlchar.rs
+
+/home/cloud-user/rpmbuild/BUILD/neondatabase-neon-pg14-1.0.0/target/release/deps/xmlparser-08bc313ac38ae864.d: /home/cloud-user/.cargo/registry/src/github.com-1ecc6299db9ec823/xmlparser-0.13.5/src/lib.rs /home/cloud-user/.cargo/registry/src/github.com-1ecc6299db9ec823/xmlparser-0.13.5/src/error.rs /home/cloud-user/.cargo/registry/src/github.com-1ecc6299db9ec823/xmlparser-0.13.5/src/stream.rs /home/cloud-user/.cargo/registry/src/github.com-1ecc6299db9ec823/xmlparser-0.13.5/src/strspan.rs /home/cloud-user/.cargo/registry/src/github.com-1ecc6299db9ec823/xmlparser-0.13.5/src/xmlchar.rs
+
+/home/cloud-user/.cargo/registry/src/github.com-1ecc6299db9ec823/xmlparser-0.13.5/src/lib.rs:
+/home/cloud-user/.cargo/registry/src/github.com-1ecc6299db9ec823/xmlparser-0.13.5/src/error.rs:
+/home/cloud-user/.cargo/registry/src/github.com-1ecc6299db9ec823/xmlparser-0.13.5/src/stream.rs:
+/home/cloud-user/.cargo/registry/src/github.com-1ecc6299db9ec823/xmlparser-0.13.5/src/strspan.rs:
+/home/cloud-user/.cargo/registry/src/github.com-1ecc6299db9ec823/xmlparser-0.13.5/src/xmlchar.rs:

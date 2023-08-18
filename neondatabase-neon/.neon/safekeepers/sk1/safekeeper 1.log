@@ -1,0 +1,53 @@
+2023-03-07T19:45:11.880459Z  INFO version: git-env:local
+2023-03-07T19:45:11.883590Z  INFO initialized safekeeper id 1
+2023-03-07T19:45:11.883647Z  INFO auth is disabled
+2023-03-07T19:45:11.885789Z  INFO claimed pid file at "/opt/neondatabase-neon/.neon/safekeepers/sk1/safekeeper.pid"
+2023-03-07T19:45:11.885862Z  INFO starting safekeeper on 127.0.0.1:5454
+2023-03-07T19:45:11.886161Z  INFO found 0 tenants directories, successfully loaded 0 timelines
+2023-03-07T19:45:11.888868Z  INFO broker: started, broker endpoint http://127.0.0.1:50051/
+2023-03-07T19:45:11.890145Z  INFO Starting an HTTP endpoint at 127.0.0.1:7676
+2023-03-07T19:45:11.890937Z  INFO WAL backup launcher started, remote config None
+2023-03-07T19:45:11.976593Z  INFO GET /v1/status 200 OK
+2023-03-07T19:45:13.741478Z  INFO {tid=11}: got query "START_WAL_PUSH" in timeline Some(cb8d17d9b27d204f00acc3bfb40854da)
+2023-03-07T19:45:13.741787Z  INFO {tid=11}:WAL acceptor{ttid=a9f752f1ec70dc10c806beb4677adf42/cb8d17d9b27d204f00acc3bfb40854da}: start handshake with walproposer 127.0.0.1:46732 sysid 7207892766371999879 timeline 0
+2023-03-07T19:45:13.741971Z  INFO {tid=11}:WAL acceptor{ttid=a9f752f1ec70dc10c806beb4677adf42/cb8d17d9b27d204f00acc3bfb40854da}: creating new timeline a9f752f1ec70dc10c806beb4677adf42/cb8d17d9b27d204f00acc3bfb40854da
+2023-03-07T19:45:13.745646Z  INFO {tid=11}:WAL acceptor{ttid=a9f752f1ec70dc10c806beb4677adf42/cb8d17d9b27d204f00acc3bfb40854da}: processed greeting from walproposer ED2C4B8F1B96D28C10FD8BD3FFDA, sending term 0
+2023-03-07T19:45:13.745900Z  INFO {tid=11}:WAL acceptor{ttid=a9f752f1ec70dc10c806beb4677adf42/cb8d17d9b27d204f00acc3bfb40854da}: timeline a9f752f1ec70dc10c806beb4677adf42/cb8d17d9b27d204f00acc3bfb40854da active=true now
+2023-03-07T19:45:13.748125Z  INFO {tid=11}:WAL acceptor{ttid=a9f752f1ec70dc10c806beb4677adf42/cb8d17d9b27d204f00acc3bfb40854da}: processed VoteRequest for term 1: VoteResponse { term: 1, vote_given: 1, flush_lsn: 0/0, truncate_lsn: 0/0, term_history: [], timeline_start_lsn: 0/0 }
+2023-03-07T19:45:13.748476Z  INFO {tid=11}:WAL acceptor{ttid=a9f752f1ec70dc10c806beb4677adf42/cb8d17d9b27d204f00acc3bfb40854da}: received ProposerElected ProposerElected { term: 1, start_streaming_at: 0/16960E8, term_history: [(1, 0/16960E8)], timeline_start_lsn: 0/16960E8 }
+2023-03-07T19:45:13.781967Z  INFO {tid=11}:WAL acceptor{ttid=a9f752f1ec70dc10c806beb4677adf42/cb8d17d9b27d204f00acc3bfb40854da}: setting timeline_start_lsn to 0/16960E8
+2023-03-07T19:45:13.782002Z  INFO {tid=11}:WAL acceptor{ttid=a9f752f1ec70dc10c806beb4677adf42/cb8d17d9b27d204f00acc3bfb40854da}: setting local_start_lsn to 0/16960E8
+2023-03-07T19:45:13.785356Z  INFO {tid=11}:WAL acceptor{ttid=a9f752f1ec70dc10c806beb4677adf42/cb8d17d9b27d204f00acc3bfb40854da}: start receiving WAL since 0/16960E8
+2023-03-07T19:45:13.896159Z  INFO {tid=13}: got query "IDENTIFY_SYSTEM" in timeline Some(cb8d17d9b27d204f00acc3bfb40854da)
+2023-03-07T19:45:13.896755Z  INFO {tid=13}: got query "START_REPLICATION PHYSICAL 0/16960E8" in timeline Some(cb8d17d9b27d204f00acc3bfb40854da)
+2023-03-07T19:45:13.896916Z  INFO {tid=13}:WAL sender{ttid=a9f752f1ec70dc10c806beb4677adf42/cb8d17d9b27d204f00acc3bfb40854da}: Start replication from 0/16960E8 till None
+2023-08-18T06:08:37.686918Z  INFO version: git-env:local
+2023-08-18T06:08:37.689297Z  INFO safekeeper ID 1
+2023-08-18T06:08:37.689430Z  INFO auth is disabled
+2023-08-18T06:08:37.691177Z  INFO claimed pid file at "/opt/neondatabase-neon/.neon/safekeepers/sk1/safekeeper.pid"
+2023-08-18T06:08:37.691980Z  INFO starting safekeeper on 127.0.0.1:5454
+2023-08-18T06:08:37.709342Z  INFO found 1 tenants directories, successfully loaded 1 timelines
+2023-08-18T06:08:37.775943Z  INFO WAL backup launcher started, remote config None
+2023-08-18T06:08:37.772608Z  INFO broker: started, broker endpoint http://127.0.0.1:50051/
+2023-08-18T06:08:37.842015Z  INFO Starting an HTTP endpoint at 127.0.0.1:7676
+2023-08-18T06:08:37.879090Z  INFO GET /v1/status 200 OK
+2023-08-18T06:08:38.115112Z  INFO {tid=13}: got query "START_WAL_PUSH" in timeline Some(cb8d17d9b27d204f00acc3bfb40854da)
+2023-08-18T06:08:38.118168Z  INFO {tid=13}:WAL acceptor{ttid=a9f752f1ec70dc10c806beb4677adf42/cb8d17d9b27d204f00acc3bfb40854da}: start handshake with walproposer 127.0.0.1:57850 sysid 0 timeline 1
+2023-08-18T06:08:38.118867Z  WARN {tid=13}:WAL acceptor{ttid=a9f752f1ec70dc10c806beb4677adf42/cb8d17d9b27d204f00acc3bfb40854da}: unexpected system ID arrived, got 0, expected 7207892766371999879
+2023-08-18T06:08:38.123860Z  INFO {tid=13}:WAL acceptor{ttid=a9f752f1ec70dc10c806beb4677adf42/cb8d17d9b27d204f00acc3bfb40854da}: processed greeting from walproposer A2B64E3E2E2DEB89D53A2E52EF28CBC, sending term 1
+2023-08-18T06:08:38.126123Z  INFO {tid=13}:WAL acceptor{ttid=a9f752f1ec70dc10c806beb4677adf42/cb8d17d9b27d204f00acc3bfb40854da}: timeline a9f752f1ec70dc10c806beb4677adf42/cb8d17d9b27d204f00acc3bfb40854da active=true now
+2023-08-18T06:08:38.129366Z  INFO {tid=13}:WAL acceptor{ttid=a9f752f1ec70dc10c806beb4677adf42/cb8d17d9b27d204f00acc3bfb40854da}: processed VoteRequest for term 2: VoteResponse { term: 2, vote_given: 1, flush_lsn: 0/16960E8, truncate_lsn: 0/16960E8, term_history: [(1, 0/16960E8)], timeline_start_lsn: 0/16960E8 }
+2023-08-18T06:08:38.137671Z  INFO {tid=13}:WAL acceptor{ttid=a9f752f1ec70dc10c806beb4677adf42/cb8d17d9b27d204f00acc3bfb40854da}: timeline a9f752f1ec70dc10c806beb4677adf42/cb8d17d9b27d204f00acc3bfb40854da active=false now
+2023-08-18T06:08:38.138318Z  INFO {tid=13}: Timeline a9f752f1ec70dc10c806beb4677adf42/cb8d17d9b27d204f00acc3bfb40854da query failed with connection error: Socket IO error: walproposer closed the connection
+2023-08-18T06:08:38.138473Z  INFO {tid=13}: query handler for 'START_WAL_PUSH' failed with expected io error: walproposer closed the connection
+2023-08-18T06:08:38.141241Z ERROR connection handler exited: reader taken
+2023-08-18T06:08:38.653002Z  INFO {tid=15}: got query "START_WAL_PUSH" in timeline Some(cb8d17d9b27d204f00acc3bfb40854da)
+2023-08-18T06:08:38.653706Z  INFO {tid=15}:WAL acceptor{ttid=a9f752f1ec70dc10c806beb4677adf42/cb8d17d9b27d204f00acc3bfb40854da}: start handshake with walproposer 127.0.0.1:57856 sysid 7207892766371999879 timeline 0
+2023-08-18T06:08:38.655989Z  INFO {tid=15}:WAL acceptor{ttid=a9f752f1ec70dc10c806beb4677adf42/cb8d17d9b27d204f00acc3bfb40854da}: processed greeting from walproposer 106EF55E56469872B8653551E9FC15, sending term 2
+2023-08-18T06:08:38.656055Z  INFO {tid=15}:WAL acceptor{ttid=a9f752f1ec70dc10c806beb4677adf42/cb8d17d9b27d204f00acc3bfb40854da}: timeline a9f752f1ec70dc10c806beb4677adf42/cb8d17d9b27d204f00acc3bfb40854da active=true now
+2023-08-18T06:08:38.657501Z  INFO {tid=15}:WAL acceptor{ttid=a9f752f1ec70dc10c806beb4677adf42/cb8d17d9b27d204f00acc3bfb40854da}: processed VoteRequest for term 3: VoteResponse { term: 3, vote_given: 1, flush_lsn: 0/16960E8, truncate_lsn: 0/16960E8, term_history: [(1, 0/16960E8)], timeline_start_lsn: 0/16960E8 }
+2023-08-18T06:08:38.659102Z  INFO {tid=15}:WAL acceptor{ttid=a9f752f1ec70dc10c806beb4677adf42/cb8d17d9b27d204f00acc3bfb40854da}: received ProposerElected ProposerElected { term: 3, start_streaming_at: 0/16960E8, term_history: [(3, 0/16960E8), (1, 0/16960E8)], timeline_start_lsn: 0/16960E8 }
+2023-08-18T06:08:38.689177Z  INFO {tid=15}:WAL acceptor{ttid=a9f752f1ec70dc10c806beb4677adf42/cb8d17d9b27d204f00acc3bfb40854da}: start receiving WAL since 0/16960E8
+2023-08-18T06:08:38.908299Z  INFO {tid=17}: got query "IDENTIFY_SYSTEM" in timeline Some(cb8d17d9b27d204f00acc3bfb40854da)
+2023-08-18T06:08:38.918631Z  INFO {tid=17}: got query "START_REPLICATION PHYSICAL 0/16960E8" in timeline Some(cb8d17d9b27d204f00acc3bfb40854da)
+2023-08-18T06:08:38.921054Z  INFO {tid=17}:WAL sender{ttid=a9f752f1ec70dc10c806beb4677adf42/cb8d17d9b27d204f00acc3bfb40854da}: Start replication from 0/16960E8 till None

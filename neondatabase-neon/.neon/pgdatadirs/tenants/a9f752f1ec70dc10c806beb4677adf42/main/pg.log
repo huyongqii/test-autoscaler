@@ -1,0 +1,19 @@
+2023-08-18 06:08:38.585 GMT [81] LOG:  starting PostgreSQL 14.6 on x86_64-pc-linux-gnu, compiled by gcc (GCC) 11.2.1 20220127 (Red Hat 11.2.1-9.4.0.2), 64-bit
+2023-08-18 06:08:38.587 GMT [81] LOG:  listening on IPv4 address "127.0.0.1", port 55432
+2023-08-18 06:08:38.589 GMT [81] LOG:  listening on Unix socket "/tmp/.s.PGSQL.55432"
+2023-08-18 06:08:38.607 GMT [85] LOG:  [ZENITH] found 'zenith.signal' file. setting prev LSN to 0/1696070
+2023-08-18 06:08:38.608 GMT [85] LOG:  database system was shut down at 2023-03-07 19:45:12 GMT
+2023-08-18 06:08:38.608 GMT [85] LOG:  starting with zenith basebackup at LSN 0/16960E8, prev 0/1696070
+2023-08-18 06:08:38.610 GMT [85] LOG:  Continue writing WAL at 0/16960E8
+2023-08-18 06:08:38.623 GMT [81] LOG:  database system is ready to accept connections
+2023-08-18 06:08:38.649 GMT [97] LOG:  connecting with node localhost:5454
+2023-08-18 06:08:38.649 GMT [98] LOG:  [NEON_SMGR] libpagestore: connected to 'postgresql://no_user:@127.0.0.1:64000'
+2023-08-18 06:08:38.650 GMT [92] LOG:  [NEON_SMGR] libpagestore: connected to 'postgresql://no_user:@127.0.0.1:64000'
+2023-08-18 06:08:38.652 GMT [97] LOG:  connected with node localhost:5454
+2023-08-18 06:08:38.656 GMT [97] LOG:  proposer connected to quorum (1) safekeepers, propTerm=3
+2023-08-18 06:08:38.656 GMT [97] LOG:  requesting vote from localhost:5454 for term 3
+2023-08-18 06:08:38.657 GMT [97] LOG:  got VoteResponse from acceptor localhost:5454, voteGiven=1, epoch=1, flushLsn=0/16960E8, truncateLsn=0/16960E8, timelineStartLsn=0/16960E8
+2023-08-18 06:08:38.658 GMT [97] LOG:  got votes from majority (1) of nodes, term 3, epochStartLsn 0/16960E8, donor localhost:5454, truncate_lsn 0/16960E8
+2023-08-18 06:08:38.658 GMT [97] LOG:  sending elected msg to node 1 term=3, startStreamingAt=0/16960E8 (lastCommonTerm=1), termHistory.n_entries=2 to localhost:5454, timelineStartLsn=0/16960E8
+2023-08-18 06:08:38.658 GMT [97] LOG:  WAL proposer starts streaming at 0/16960E8
+2023-08-18 06:08:38.691 GMT [97] LOG:  standby "walproposer" is now a synchronous standby with priority 1

@@ -1,0 +1,43 @@
+id =1
+pg_distrib_dir ='/opt/neondatabase-neon/pg_install'
+auth_type ='Trust'
+listen_http_addr ='127.0.0.1:9898'
+listen_pg_addr ='127.0.0.1:64000'
+broker_endpoint ='http://127.0.0.1:50051/'
+
+# Initial configuration file created by 'pageserver --init'
+#listen_pg_addr = '127.0.0.1:64000'
+#listen_http_addr = '127.0.0.1:9898'
+
+#wait_lsn_timeout = '60 s'
+#wal_redo_timeout = '60 s'
+
+#max_file_descriptors = 100
+
+# initial superuser role name to use when creating a new tenant
+#initial_superuser_name = 'cloud_admin'
+
+#broker_endpoint = 'http://127.0.0.1:50051'
+
+#log_format = 'plain'
+
+#concurrent_tenant_size_logical_size_queries = '1'
+
+#metric_collection_interval = '10 min'
+#cached_metric_collection_interval = '1 hour'
+#synthetic_size_calculation_interval = '10 min'
+
+# [tenant_config]
+#checkpoint_distance = 268435456 # in bytes
+#checkpoint_timeout = 10 m
+#compaction_target_size = 134217728 # in bytes
+#compaction_period = '20 s'
+#compaction_threshold = '10'
+
+#gc_period = '1 hr'
+#gc_horizon = 67108864
+#image_creation_threshold = 3
+#pitr_interval = '7 days'
+
+# [remote_storage]
+

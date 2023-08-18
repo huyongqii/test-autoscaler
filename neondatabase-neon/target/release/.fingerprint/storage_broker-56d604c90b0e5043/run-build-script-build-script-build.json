@@ -1,0 +1,1 @@
+{"rustc":7419878829587384386,"features":"","target":0,"profile":0,"path":0,"deps":[[17568224706384432532,"build_script_build",false,12131764931554820375]],"local":[{"RerunIfChanged":{"output":"release/build/storage_broker-56d604c90b0e5043/output","paths":["proto/broker.proto","proto"]}}],"rustflags":[],"metadata":0,"config":0,"compile_kind":0}

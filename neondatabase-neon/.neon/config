@@ -1,0 +1,30 @@
+# This file describes a locale deployment of the page server
+# and safekeeeper node. It is read by the 'neon_local' command-line
+# utility.
+default_tenant_id = 'a9f752f1ec70dc10c806beb4677adf42'
+neon_distrib_dir = '/opt/neondatabase-neon/target/release'
+pg_distrib_dir = '/opt/neondatabase-neon/pg_install'
+private_key_path = 'auth_private_key.pem'
+
+[[safekeepers]]
+auth_enabled = false
+http_port = 7676
+id = 1
+pg_port = 5454
+sync = true
+
+[branch_name_mappings]
+main = [[
+    'a9f752f1ec70dc10c806beb4677adf42',
+    'cb8d17d9b27d204f00acc3bfb40854da',
+]]
+
+[broker]
+listen_addr = '127.0.0.1:50051'
+
+[pageserver]
+auth_token = 'eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiJ9.eyJ0ZW5hbnRfaWQiOm51bGwsInNjb3BlIjoicGFnZXNlcnZlcmFwaSJ9.bs3oQIXO6GTymDVm1LbpEFSPyRyVk2UjdG65A2dQnxlDWG-VIdCOZUSx9Eghudu8nc7wGpvPDq5ftnDnY0ibjOcIsdseQmg80DH1rCdCbI1hpj1ICwpW6_pPsr9q_BVaS_q44u5buCraI-geVNTprXnHuACfB0pE3sxf11edps8HKrIHvJWwLmVcelqKUGmlru_fjpvHYkpWlkKEJheUgURWVzGpwhjUrSdWBlwSFBQjx5yWvC6CAFuOGMgztUjfWVfYQPHmEX59mBk8LY7Z9UYfosfdZBriWoOBkex8SWCFED083M0PjdQSv5DWli1o2OAhg5TheWNn67Qg7d7ASg'
+auth_type = 'Trust'
+id = 1
+listen_http_addr = '127.0.0.1:9898'
+listen_pg_addr = '127.0.0.1:64000'

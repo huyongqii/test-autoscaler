@@ -1,0 +1,14 @@
+prefix=/home/cloud-user/rpmbuild/BUILD/neondatabase-neon-pg14-1.0.0/pg_install/v15
+exec_prefix=${prefix}
+libdir=${exec_prefix}/lib
+includedir=${prefix}/include
+
+Name: libecpg_compat
+Description: PostgreSQL libecpg_compat library
+Url: https://www.postgresql.org/
+Version: 15.1
+Requires: 
+Requires.private: libecpg libpgtypes
+Cflags: -I${includedir}
+Libs: -L${libdir} -lecpg_compat
+Libs.private:  -lpgcommon -lpgport -lpq -lm

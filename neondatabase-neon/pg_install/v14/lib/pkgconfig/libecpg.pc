@@ -1,0 +1,9 @@
+Name: libecpg
+Description: PostgreSQL libecpg library
+Url: https://www.postgresql.org/
+Version: 14.6
+Requires: 
+Requires.private: libpq libpgtypes
+Cflags: -I/home/cloud-user/rpmbuild/BUILD/neondatabase-neon-pg14-1.0.0/pg_install/v14/include
+Libs: -L/home/cloud-user/rpmbuild/BUILD/neondatabase-neon-pg14-1.0.0/pg_install/v14/lib -lecpg
+Libs.private:  -lpgcommon -lpgport -lm

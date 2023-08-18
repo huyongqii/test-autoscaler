@@ -1,0 +1,3 @@
+cargo:rerun-if-changed=build/main.rs
+cargo:rustc-env=TYPENUM_BUILD_CONSTS=/home/cloud-user/rpmbuild/BUILD/neondatabase-neon-pg14-1.0.0/target/release/build/typenum-7236a7eb6285f8b0/out/consts.rs
+cargo:rustc-env=TYPENUM_BUILD_OP=/home/cloud-user/rpmbuild/BUILD/neondatabase-neon-pg14-1.0.0/target/release/build/typenum-7236a7eb6285f8b0/out/op.rs
